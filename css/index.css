@@ -1,0 +1,83 @@
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    text-shadow: none !important;
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background: url("../img/background.png") center bottom no-repeat;
+    background-size: cover;
+}
+
+.ui-mobile .ui-page{
+    background: rgba(255,255,255,0.1);
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit{
+    background-color: #EB3232;
+    color: white;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title{
+    font-weight: 100;
+    overflow: none !important;
+    margin: 0;
+}
+
+.ui-header, .ui-footer{
+    border-width: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.button-normal{
+    width: 100%;
+    display: inline-block;
+    background: #3C8D0D;
+    padding: 13px 0;
+    border: 0;
+    outline: none;
+    margin: 0 0 23px 0;
+    color: white;
+    border-radius: 3px;
+}
+
+.button-red{
+    width: 100%;
+    display: inline-block;
+    background: #EB3232;
+    padding: 13px 0;
+    border: 0;
+    outline: none;
+    margin: 0 0 23px 0;
+    color: white;
+    border-radius: 3px;
+}
+
+.button-normal:active{
+    background: rgb(81,181,23);
+}
+
+
+.error {
+    width: 70%;
+    height: 20px;
+    height: auto;
+    position: fixed;
+    margin: 0 15%;
+    bottom: 10px;
+    background-color: #383838;
+    color: #F0F0F0;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+}

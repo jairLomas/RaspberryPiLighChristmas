@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+
+        <link rel="stylesheet" href="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
+        <script src="js/jquery.mobile-1.4.5/jquery.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+        <script type="text/javascript" src="js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+        <title>Hello World</title>
+    </head>
+    <body>
+
+
+        <div data-role="page">
+            <div data-role="header">
+                <h1>Christmas Lights App</h1>
+            </div>
+
+            <div data-role="content">   
+
+                <div class="text-center">
+                    <p>Select below the music you want to play</p>
+                </div>   
+                <br>
+                <div class="text-center">
+                    <button data-role="none" class="button-normal play_music" music-name="Jingle Bells" file-name="Jingle_Bells.mp3">Jingle Bells</button>  
+                    <br> 
+                    <button data-role="none" class="button-normal play_music" music-name="We Wish You a Merry Christmas" file-name="We_Wish_You_a_Merry_Christmas.mp3">We Wish You a Merry Christmas</button>   
+                    <br> 
+                    <button data-role="none" class="button-normal play_music" music-name="Va a Nevar" file-name="Luis_Miguel_Va_a_nevar.mp3">Va a Nevar</button> 
+                    <br>
+                    <button data-role="none" class="button-red stop_music">Stop</button> 
+                </div>   
+            </div>
+
+        </div>
+
+
+
+
+        <div class='error' style='display:none'></div>
+
+    </body>
+</html>
+
+
